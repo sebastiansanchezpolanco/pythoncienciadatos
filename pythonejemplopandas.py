@@ -11,11 +11,11 @@ datos={
 #llamadas DataFrame de las librerias pandas
 df=pd.DataFrame(datos)
 #Mis primeros datos
-print("--------DataFrame total-------")
+print("--------DataFrame total--------")
 print(df)
-print("--------DataFrame filtrado-------")
+print("--------DataFrame filtrado--------")
 dffiltrado=df[df["Edad"]>23]
 print(dffiltrado)
-print("--------DataFrame ordenado-------")
+print("--------DataFrame ordenado--------")
 dfordenado=df.sort_values("Nombres")
 print(dfordenado)
